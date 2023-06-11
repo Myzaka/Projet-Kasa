@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header__navbar__link {
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FF6060;
+    ;
+}
+
+.header__navbar__link:hover {
+    text-decoration: underline;
+}
