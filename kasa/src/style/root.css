@@ -1,0 +1,11 @@
+
+
+.bandeauHome {
+    
+    background-image: url('bandeauHome__paysage.png');
+    background-image: url('./../assets/images/bandeauHome__paysage.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
