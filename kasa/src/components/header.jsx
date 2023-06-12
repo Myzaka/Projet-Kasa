@@ -5,7 +5,7 @@ import './../style/header.css';
 export default function Header() {
     return (
         
-            <div class = 'header'>
+            <header class = 'header'>
                 <h1><LogoKasa /></h1>
                 <nav >
                     <ul class = 'header__navbar'>
@@ -17,7 +17,7 @@ export default function Header() {
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </header>
         
         );
     }
