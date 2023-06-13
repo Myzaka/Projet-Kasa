@@ -2,10 +2,18 @@
 
 .bandeauHome {
     
-    background-image: url('bandeauHome__paysage.png');
     background-image: url('./../assets/images/bandeauHome__paysage.png');
+    background-size:contain;
+    object-fit: fill;
+    width: 1240px;
+    height : 223px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 48px;
+    color:white;
+    mix-blend-mode: darken;
+    background: #000000;
+    opacity: 0.3;
+    border-radius: 25px;
 }
