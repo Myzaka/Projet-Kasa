@@ -1,5 +1,3 @@
-
-
 .bandeauHome {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./../assets/images/bandeauHome__paysage.png');
@@ -14,4 +12,10 @@
     font-size: 48px;
     color:white;
     border-radius: 25px;
+}
+
+.offresImmobilieres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

@@ -1,4 +1,5 @@
 import ('./../style/card.css')
+import ('./../assets/images/biensImmobiliers.json')
 
 export default function Card({photo, titre}) {
     return(

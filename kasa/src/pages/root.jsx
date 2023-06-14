@@ -15,6 +15,16 @@ export default function Root() {
         
         <section class='offresImmobilieres'>
           <Card 
+            titre = "Ceci est un titre"/>             
+            <Card 
+            titre = "Ceci est un titre"/>
+          <Card 
+            titre = "Ceci est un titre"/>
+          <Card 
+            titre = "Ceci est un titre"/>
+          <Card 
+            titre = "Ceci est un titre"/>
+          <Card 
             titre = "Ceci est un titre"/>
         </section>
         <Footer />
