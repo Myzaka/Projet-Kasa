@@ -3,14 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    .header__navbar {
+        display: inline-flex;
+        list-style-type: none;
+    }
 }
-
-.header__navbar {
-    display: inline-flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-
 .header__navbar__link {
     padding-left: 20px;
     font-size: 24px;

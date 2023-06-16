@@ -1,7 +1,7 @@
-import ('./../style/bandeau.css')
+import ('./../style/bandeau.scss')
 
 export default function Bandeau({titre}) {
     return (
-        <div class = "bandeau">{titre}</div>
+        <div className = "bandeau">{titre}</div>
     )
 }

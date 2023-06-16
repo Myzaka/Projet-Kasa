@@ -2,7 +2,7 @@ import Bandeau from "../components/bandeau";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Card from "../components/card";
-import './../style/root.css'
+import './../style/root.scss'
 
 export default function Root() {
     return (
@@ -13,7 +13,7 @@ export default function Root() {
           titre = "Chez vous, partout et ailleurs"/></>
         </section>
         
-        <section class='offresImmobilieres'>
+        <section className='offresImmobilieres'>
           <Card 
             titre = "Ceci est un titre"/>             
             <Card 
