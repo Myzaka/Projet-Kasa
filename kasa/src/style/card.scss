@@ -1,5 +1,5 @@
 .card {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%),url('./../assets/images/bandeauHome__paysage.png');;
+    background: linear-gradient(180deg, rgba(254, 98, 98) 0%, rgba(137, 54, 54) 100%);
     background-position: center;
     border-radius: 10px;
     width: 340px;
@@ -7,15 +7,12 @@
     margin: 25px;
     display: flex;
     align-items:flex-end;
+    .card__titre {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        flex-direction: row;
+        margin-left: 20px;
+        text-align: center;
 }
-
-.card__titre {
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    text-align: center;
-
 }
