@@ -1,7 +1,12 @@
 Problèmes rencontrés
 
-Je n'arrive pas à installer Sass
-<br />
 Problème d'enchaînement des URL 'A propos'
 <br />
-Je n'arrive pas à intégrer l'image du bandeau via le CSS
+J'ai dû créer 2 composants différents pour le bandeau, est-il possible de créer 1 seul composant avec une variable image dans le scss ?
+<br />
+Faut-il mettre des images dans la page d'accueil ?
+<br />
+Sur la page d'accueil, j'ai juste répété 6x le composant Card, est-ce que c'est bien l'attendu ?
+<br />
+Je ne comprends pas l'attendu de l'étape 4 : "Attention à ce que la création des cards ne génère pas de warning dans
+la console." Je ne vois pas non plus le lien avec la notion de key dans React.
