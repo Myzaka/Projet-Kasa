@@ -1,24 +1,41 @@
 .erreur {
     font-size: 288px;
-    font-weight: 700;
+    font-weight: 100;
     color: #FF6060;
     display: flex;
     justify-content: center;
+    font-family: Montserrat-Bold;
+    &__libelle {
+        font-size: 36px;
+        font-weight: 500;
+        color: #FF6060;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;    
+    }
+    &__Home {
+        font-weight: 500;
+        font-size: 18px;
+        color: #FF6060;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 
-.erreur__libelle {
+/*.erreur__libelle {
     font-size: 36px;
     font-weight: 500;
     color: #FF6060;
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-}
+}*/
 
-.erreur__Home {
+/*.erreur__Home {
     font-weight: 500;
     font-size: 18px;
     color: #FF6060;
     display: flex;
     justify-content: center;
-}
+}*/
