@@ -16,3 +16,5 @@ Bien revoir la notion de routeur
 Remettre le contenu du site dans le fichier App, et pas dans le fichier Root + bien comprendre l'architecture de ces fichiers.
 <br />
 Je n'arrive pas à gérer les animations dans la page "A propos"
+<br />
+Affichage en double du titre sur les cards en raison d'une balise ::before que je n'ai pas sollicitée
