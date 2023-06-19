@@ -18,3 +18,5 @@ Remettre le contenu du site dans le fichier App, et pas dans le fichier Root + b
 Je n'arrive pas à gérer les animations dans la page "A propos"
 <br />
 Affichage en double du titre sur les cards en raison d'une balise ::before que je n'ai pas sollicitée
+<br />
+Pour afficher les images à partir du fichier JSON, peut-on passer par le .scss avec un background-image ?
