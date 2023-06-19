@@ -20,3 +20,5 @@ Je n'arrive pas à gérer les animations dans la page "A propos"
 Affichage en double du titre sur les cards en raison d'une balise ::before que je n'ai pas sollicitée. Hypothèse : le titre s'affiche car il n'y a pas d'image.
 <br />
 Pour afficher les images à partir du fichier JSON, peut-on passer par le .scss avec un background-image ?
+<br />
+Revoir affichage des photos sur la page d'accueil, elles sont étirées vers le haut
