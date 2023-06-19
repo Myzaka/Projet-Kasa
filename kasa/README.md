@@ -14,3 +14,5 @@ la console." Je ne vois pas non plus le lien avec la notion de key dans React.
 Bien revoir la notion de routeur
 <br />
 Remettre le contenu du site dans le fichier App, et pas dans le fichier Root + bien comprendre l'architecture de ces fichiers.
+<br />
+Je n'arrive pas à gérer les animations dans la page "A propos"
