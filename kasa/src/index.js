@@ -9,6 +9,7 @@ import {
 import Root from "./pages/root";
 import ErrorPage from "./routes/error-page";
 import Apropos from './pages/Apropos';
+import FicheLogement from './pages/ficheLogement';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,13 @@ const router = createBrowserRouter([
   {
     path: 'Apropos',
     element: <Apropos />,
+    errorElement: <ErrorPage />,
   },
+  {
+    path: 'ficheLogement',
+    element: <FicheLogement />,
+    
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

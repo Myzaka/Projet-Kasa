@@ -16,18 +16,6 @@ export default function App() {
       </section>
       
       <section className='offresImmobilieres'>
-        <Card 
-          titre = "Ceci est un titre"/>             
-          <Card 
-          titre = "Ceci est un titre"/>
-        <Card 
-          titre = "Ceci est un titre"/>
-        <Card 
-          titre = "Ceci est un titre"/>
-        <Card 
-          titre = "Ceci est un titre"/>
-        <Card 
-          titre = "Ceci est un titre"/>
         <BiensImmobiliers />
       </section>
       <Footer2 />
