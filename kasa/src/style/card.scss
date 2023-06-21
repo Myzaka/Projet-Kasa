@@ -22,6 +22,7 @@
     &__photo {
         border-radius: 10px;
         background-position: center;
+        object-fit: cover;
         width: 340px;
         height: 340px;
     }
