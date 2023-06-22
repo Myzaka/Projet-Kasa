@@ -13,7 +13,7 @@ export default function Header() {
                             <Link to={'/'} className = 'header__navbar__link'>Accueil</Link>
                         </li>
                         <li>
-                            <Link to={'Apropos'} className = 'header__navbar__link'>A propos</Link>
+                            <Link to={'/Apropos'} className = 'header__navbar__link'>A propos</Link>
                         </li>
                     </ul>
                 </nav>
