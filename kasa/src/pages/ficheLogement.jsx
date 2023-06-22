@@ -9,7 +9,7 @@ export default function FicheLogement() {
     return (
         <>
             <Header />
-
+            <Carrousel />
             <Footer2 />
         </>
     )
