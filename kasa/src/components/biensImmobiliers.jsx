@@ -9,7 +9,7 @@ export default function BiensImmobiliers() {
     return (
       <ul className='biensImmobiliers'>
         {biensImmobiliers.map((biensImmo) => (
-          <li key={biensImmo.title}>
+          <li key={biensImmo.id}>
             <Card photo={biensImmo.cover} titre={biensImmo.title} />
           </li>
         ))}
