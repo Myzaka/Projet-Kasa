@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import '../style/carrousel.scss'
-import biensImmobiliers from '../assets/images/biensImmobiliers.json';
+import '../../style/ficheLogement/ficheLogement__carrousel.scss'
+import biensImmobiliers from '../../assets/images/biensImmobiliers.json';
 
 /*export default function Carrousel() {
     

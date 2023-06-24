@@ -1,0 +1,28 @@
+.selection {
+    color: #FF6060;
+    font-weight: 500;
+    width: 50%;
+    &__title {
+        font-size: 36px;
+        margin: 40px 0 0 0;
+    }
+    &__location {
+        font-size: 18px;
+    }
+    &__tags {
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        list-style-type: none;
+        padding: 0;
+        &--button {
+            margin-right: 20px;
+            color: white;
+            background-color: #FF6060;
+            height: 140%;
+            width: 115px;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+    }
+}
