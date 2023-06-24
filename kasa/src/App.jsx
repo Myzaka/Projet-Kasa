@@ -1,7 +1,6 @@
 import Bandeau from "./components/bandeau";
 import Footer2 from "./components/footer2";
 import Header from "./components/header";
-import Card from "./components/card";
 import BiensImmobiliers from "./components/biensImmobiliers";
 import './style/root.scss'
 import './style/App.scss';

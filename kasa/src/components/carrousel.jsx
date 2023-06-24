@@ -68,7 +68,6 @@ function FlechesDefilement({defilDroite, defilGauche, imageTotal}) {
 
 
 function Compteur({imageActive, imageTotal}) {
-  console.log(imageTotal)
   return(
     (imageTotal > 0) && <div className='compteur'>{imageActive+1}/{imageTotal+1}</div>
   )
