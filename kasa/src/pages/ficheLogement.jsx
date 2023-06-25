@@ -5,6 +5,8 @@ import Selection from "../components/ficheLogement/ficheLogement__selection";
 import { useParams } from "react-router";
 import biensImmobiliers from "../assets/images/biensImmobiliers.json";
 import '../style/ficheLogement/ficheLogement__selection.scss';
+import '../style/ficheLogement/ficheLogement.scss';
+import Host from "../components/ficheLogement/ficheLogement__host";
 
 export default function FicheLogement() {
 
@@ -21,6 +23,9 @@ const index = biensImmobiliers.findIndex(element => element.id === logementId);
                 <Selection
                     index = {index}
                  />
+                <Host
+                    index = {index}
+                />
             </section>
             <section className="menuDeroulantLogement">
 
