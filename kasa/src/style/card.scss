@@ -8,26 +8,26 @@
     display: flex;
     flex-wrap: wrap;
     align-items:flex-end;
+    text-decoration: none;
     &__titre {
         position:relative;
         top: -50px; left: 0px;
         font-size: 18px;
         font-weight: 500;
         color: white;
-        flex-direction: row;
         margin: 0;
         padding : 0 20px 0 20px;
         text-align: left;
+        text-decoration:none;
+        text-shadow: 1px 1px 2px black;
     }
     &__photo {
         border-radius: 10px;
         background-position: center;
         object-fit: cover;
-        width: 340px;
-        height: 340px;
-    }
-    &:hover {
-        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
     }
 }
 

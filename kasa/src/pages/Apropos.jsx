@@ -6,7 +6,7 @@ import ('./../style/Apropos.scss')
 
 export default function Apropos() {
     return (
-        <div>
+        <>
             <Header />
             <BandeauApropos />
             <section className="engagements">
@@ -38,6 +38,6 @@ export default function Apropos() {
                  />
             </section>
             <Footer2 />
-        </div>
+        </>
     )
 }

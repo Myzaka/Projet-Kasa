@@ -9,7 +9,7 @@ export default function App() {
   return  (
     <>
       <Header />
-      <section>
+      <section className="accueil__bandeau">
         <><Bandeau 
         titre = "Chez vous, partout et ailleurs"/></>
       </section>
