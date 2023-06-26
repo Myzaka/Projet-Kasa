@@ -38,7 +38,14 @@ const index = biensImmobiliers.findIndex(element => element.id === logementId);
                 <p className="menuDeroulantLogement__contenu">
                     <Charte
                         titre = 'Equipements'
-                        contenu = {biensImmobiliers[index].equipments}
+                        contenu = 
+                        {biensImmobiliers[index].equipments.map((biensImmo) => (
+                          <li key={biensImmo.id}>
+                            {biensImmo}
+                          </li>
+                        ))}
+                      
+
                     />    
                 </p>
                 
