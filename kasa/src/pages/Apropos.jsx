@@ -1,14 +1,18 @@
 import Header from "../components/header";
-import BandeauApropos from "../components/bandeauApropos";
+import Bandeau from "../components/bandeau";
 import Charte from "../components/menuDeroulant";
 import Footer2 from "./../components/footer2.jsx";
+import bandeauApropos from './../assets/images/bandeauApropos.png';
 import ('./../style/Apropos.scss')
 
 export default function Apropos() {
     return (
         <>
             <Header />
-            <BandeauApropos />
+            <Bandeau
+                titre=""
+                image={bandeauApropos}
+            />
             <section className="engagements">
                 <Charte
                     titre = "Fiabilité"
