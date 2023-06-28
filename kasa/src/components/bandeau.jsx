@@ -5,6 +5,7 @@ export default function Bandeau({titre, image}) {
             <section className='bandeau'>
                 <img src={image} alt={titre} className = 'bandeau__image' />
                 <p className = 'bandeau__titre'>{titre}</p>
+                
             </section>
                 
     )

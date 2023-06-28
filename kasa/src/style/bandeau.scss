@@ -4,23 +4,31 @@
     justify-content: center;
     align-items: center;
     &__image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-        background-position: center;
-        background-blend-mode: darken;
-        mix-blend-mode: darken;
         width: 85%;
         height : 223px;
-
-        
+        object-fit: cover;
         border-radius: 25px;
         margin: 0;
+        @media (max-width:600px){
+            width: 90%;
+        }
     }
     &__titre {
-        position: relative;
-        top: -150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         font-size: 48px;
         color:white;
         margin: 0;
+        width: 85%;
+        height: 223px;
+        border-radius: 25px;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+        margin-top: -223px;
+        background-blend-mode: darken;
     }
+
 }
+
 
