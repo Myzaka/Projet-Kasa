@@ -1,18 +1,26 @@
-$image: "./../assets/images/bandeauHome__paysage.png";
-
 .bandeau {
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url($image);
-    background-position: center;
-    background-blend-mode: darken;
-    mix-blend-mode: darken;
-    width: 85%;
-    height : 223px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
-    color:white;
-    border-radius: 25px;
-    margin: 50px 0;
+    &__image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+        background-position: center;
+        background-blend-mode: darken;
+        mix-blend-mode: darken;
+        width: 85%;
+        height : 223px;
+
+        
+        border-radius: 25px;
+        margin: 0;
+    }
+    &__titre {
+        position: relative;
+        top: -150px;
+        font-size: 48px;
+        color:white;
+        margin: 0;
+    }
 }
+

@@ -1,4 +1,7 @@
 .logo_kasa__lettre {
     padding-right: 5px;
+    @media (max-width: 600px) {
+        width: 10vw; 
+    }
 }
 
