@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import LogoKasa from "./logo_kasa";
 import logo_kasa from '../assets/logo/logo_kasa.png'
 import './../style/header.scss';
 

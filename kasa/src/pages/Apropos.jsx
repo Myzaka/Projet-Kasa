@@ -16,21 +16,17 @@ export default function Apropos() {
             <section className="engagements">
                 <Charte
                     titre = "Fiabilité"
-                    contenu = "Les annonces postées sur Kasa garantissent une fiabilité totale. 
-                    Les photos sont conformes aux logements, et toutes les informations sont
-                    régulièrement vérifiées par nos équipes."
+                    contenu = "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
                  />
                 
                 <Charte
                     titre = "Respect"
-                    contenu = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de
-                    perturbation du voisinage entraînera une exclusion de notre plateforme."  
+                    contenu = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."  
                  />
                 
                 <Charte
                     titre = "Service"
-                    contenu = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de
-                perturbation du voisinage entraînera une exclusion de notre plateforme."
+                    contenu = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
                  />
 
                 <Charte
