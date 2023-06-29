@@ -12,6 +12,7 @@ export default function Apropos() {
             <Bandeau
                 titre=""
                 image={bandeauApropos}
+                image__name='bandeau__aPropos'
             />
             <section className="engagements">
                 <Charte

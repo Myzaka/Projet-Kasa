@@ -25,6 +25,7 @@
         text-shadow: 1px 1px 2px black;
         @media (max-width:600px) {
             font-size: 18px;
+            top: min(-50px,-12vw); //à revoir, couper le texte si trop long
         }
     }
     &__photo {
@@ -38,8 +39,8 @@
 }
 
 .compteur {
-    font-size: 40px;
-    color: black;
+    font-size: 18px;
+    color: white;
     position: relative;
     top: -100px;
     left: 50%;

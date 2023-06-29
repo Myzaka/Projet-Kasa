@@ -1,3 +1,30 @@
+#bandeau_aPropos {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    border-radius: 25px;
+    @media (max-width:600px){
+        width: 90%;
+        border-radius: 10px;
+    }
+    &__image {
+        width: 100%;
+        mix-blend-mode: darken;
+        height: min(223px,calc(111px + 9vw));
+        object-fit: cover;
+        border-radius: 25px;
+        margin: 0;
+        @media (max-width:600px){
+            border-radius: 10px;
+        }
+    }
+}
+
 .engagements {
     display: flex;
     width: 75%;
@@ -5,4 +32,7 @@
     align-items: center;
     justify-content: center;
     margin: 20px auto 40px auto;
+    @media (max-width: 600px) {
+        width: 90%;
+    }
 }

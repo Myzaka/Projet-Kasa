@@ -2,31 +2,6 @@ import { useState } from 'react';
 import '../../style/ficheLogement/ficheLogement__carrousel.scss'
 import biensImmobiliers from '../../assets/images/biensImmobiliers.json';
 
-/*export default function Carrousel() {
-    
-  const logement = biensImmobiliers[0];
-  const imagesCarrousel = logement.pictures;
-  const titresCarrousel = logement.title;
-  const nombreImagesCarrousel = imagesCarrousel.length-1;
-  const [index, setIndex] = useState(0);
-  function defilDroite(){
-    index < nombreImagesCarrousel ? setIndex(index+1) : setIndex(0);
-  }
-  function defilGauche(){
-    index > 0 ? setIndex(index-1) : setIndex(nombreImagesCarrousel);
-  }
-    return (
-      <article className='logement'>
-        <img className="logement__images" src={imagesCarrousel[index]} alt={titresCarrousel} />
-        <i className="fa-solid fa-circle-chevron-right" onClick={defilDroite}></i>
-        <i className="fa-solid fa-circle-chevron-left" onClick={defilGauche}></i>
-        <Compteur
-          imageActive={index}
-          imageTotal={nombreImagesCarrousel}
-          />
-      </article>
-    );
-  }*/
 
 export default function Carrousel({logementSelectionne}) {
   
@@ -60,8 +35,9 @@ function FlechesDefilement({defilDroite, defilGauche, imageTotal}) {
   return (
     (imageTotal > 0) &&
     <> 
-      <i className="fa-solid fa-circle-chevron-right" onClick={defilDroite}></i>
-      <i className="fa-solid fa-circle-chevron-left" onClick={defilGauche}></i>
+
+      <i className="fa-solid fa-chevron-right" onClick={defilDroite}></i>
+      <i className="fa-solid fa-chevron-left" onClick={defilGauche}></i>
     </>
   )
 }

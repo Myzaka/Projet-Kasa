@@ -14,10 +14,8 @@ export default function App() {
       <Bandeau 
         titre = "Chez vous, partout et ailleurs"
         image = {bandeauHome__paysage}
+        image__name='bandeau__image'
       />
-        
-        
-      
       
       <section className='offresImmobilieres'>
         <BiensImmobiliers />
