@@ -1,26 +1,3 @@
-
-/*.bandeauHome {
-    
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./../assets/images/bandeauHome__paysage.png');
-  background-position: center;
-  background-blend-mode: darken;
-  mix-blend-mode: darken;
-  width: 85%;
-  height : 223px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 48px;
-  color:white;
-  border-radius: 25px;
-}
-*/
-.accueil__bandeau {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 .offresImmobilieres {
   width: 85%;
   background-color: #F6F6F6;
@@ -33,5 +10,6 @@
   @media(max-width: 600px) {
     background-color: white;
     width: 90%;
+    margin: 10px auto;
   }
 }

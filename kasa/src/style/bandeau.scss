@@ -1,34 +1,45 @@
 .bandeau {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-blend-mode: darken;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    width: 85%;
+    border-radius: 25px;
+    @media (max-width:600px){
+        width: 90%;
+        border-radius: 10px;
+    }
     &__image {
-        width: 85%;
-        height: calc(111px + 9vw);
+        width: 100%;
+        mix-blend-mode: darken;
+        height: min(223px,calc(111px + 9vw));
         object-fit: cover;
         border-radius: 25px;
         margin: 0;
         @media (max-width:600px){
-            width: 90%;
+            border-radius: 10px;
         }
     }
     &__titre {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: calc(16px + 2vw);
+        font-size: min(48px, calc(16px + 2vw));
         margin-left: 15px;
         color:white;
         margin: 0;
         width: 85%;
-        height: calc(111px + 9vw);
+        position: absolute;
+        top:max(223px,calc(146px + 3.5vw));
+        padding: 0 15px;
         border-radius: 25px;
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-        margin-top: calc(-111px - 9vw);
-        background-blend-mode: darken;
         @media (max-width:600px){
             width: 90%;
+            position: absolute;
+            top:min(223px,calc(176px + 3.5vw));
         }
     }
 
