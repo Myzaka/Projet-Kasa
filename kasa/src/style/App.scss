@@ -1,5 +1,5 @@
 
-.bandeauHome {
+/*.bandeauHome {
     
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./../assets/images/bandeauHome__paysage.png');
   background-position: center;
@@ -14,7 +14,7 @@
   color:white;
   border-radius: 25px;
 }
-
+*/
 .accueil__bandeau {
   display: flex;
   justify-content: center;
@@ -22,7 +22,16 @@
 }
 
 .offresImmobilieres {
+  width: 85%;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  padding: 20px 0;
+  margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media(max-width: 600px) {
+    background-color: white;
+    width: 90%;
+  }
 }

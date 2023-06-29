@@ -1,9 +1,9 @@
 .card {
-    background: linear-gradient(180deg, rgba(254, 98, 98) 0%, rgba(137, 54, 54) 100%);
-    background-position: center;
+    //background: linear-gradient(180deg, rgba(254, 98, 98) 0%, rgba(137, 54, 54) 100%);
+    //background-position: center;
     border-radius: 10px;
-    width: 340px;
-    height: 340px;
+    width: min(22vw,340px);
+    height: min(22vw,340px);
     margin: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -37,4 +37,8 @@
     position: relative;
     top: -100px;
     left: 50%;
+}
+
+.card__lien {
+    text-decoration:none;
 }
