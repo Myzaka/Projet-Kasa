@@ -13,3 +13,5 @@ Menu déroulant : tester min-height. Si hauteur absolue, mettre + que 100px
 Changer chevron et compteur pour reprendre format projet
 <br />
 !!! erreurs JS dans la console à proscrire
+<br />
+Quand je zoom, le nb d'images par ligne se réduit. Comment faire ?
