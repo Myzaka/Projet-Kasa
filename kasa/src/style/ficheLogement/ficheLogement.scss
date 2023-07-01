@@ -9,6 +9,7 @@
     @media (max-width:600px) {
         width: 90%;
         flex-direction: column;
+        margin-top: 20px;
     }
 }
 
@@ -23,16 +24,10 @@
         flex-direction: column;
     }
     &__contenu {
-        width:60%;
+        width:47%;
+        margin: 0;
         @media (max-width:600px) {
-            width:95%;
+            width:100%;
         }
-    }
-}
-
-.menuDeroulantLogement__equipements {
-    align-self: flex-end;
-    @media (max-width:600px) {
-        align-self: flex-start
     }
 }

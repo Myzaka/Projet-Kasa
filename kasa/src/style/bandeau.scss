@@ -15,7 +15,20 @@
     &__image {
         width: 100%;
         mix-blend-mode: darken;
-        height: min(223px,calc(111px + 9vw));
+        height: 223px;
+        //height: min(223px,calc(111px + 9vw));
+        object-fit: cover;
+        border-radius: 25px;
+        margin: 0;
+        @media (max-width:600px){
+            border-radius: 10px;
+            height: 111px;
+        }
+    }
+    &__image--grand {
+        width: 100%;
+        mix-blend-mode: darken;
+        height: 223px;
         object-fit: cover;
         border-radius: 25px;
         margin: 0;
@@ -33,13 +46,15 @@
         margin: 0;
         width: 85%;
         position: absolute;
-        top:max(223px,calc(146px + 3.5vw));
+        top:235px;
+        //top:max(223px,calc(146px + 3.5vw));
         padding: 0 15px;
         border-radius: 25px;
         @media (max-width:600px){
-            width: 90%;
+            text-align: center;
             position: absolute;
-            top:min(223px,calc(176px + 3.5vw));
+            //top:min(223px,calc(176px + 3.5vw));
+            top:168px;
         }
     }
 

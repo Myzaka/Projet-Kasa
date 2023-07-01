@@ -12,7 +12,7 @@ export default function Apropos() {
             <Bandeau
                 titre=""
                 image={bandeauApropos}
-                image__name='bandeau__aPropos'
+                taille='grand'
             />
             <section className="engagements">
                 <Charte

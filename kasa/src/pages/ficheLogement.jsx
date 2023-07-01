@@ -35,7 +35,7 @@ const index = biensImmobiliers.findIndex(element => element.id === logementId);
                         contenu = {biensImmobiliers[index].description}
                     />
                 </p>
-                <p className="menuDeroulantLogement__contenu menuDeroulantLogement__equipements">
+                <p className="menuDeroulantLogement__contenu">
                     <Charte
                         titre = 'Equipements'
                         contenu = 

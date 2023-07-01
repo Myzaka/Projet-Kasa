@@ -1,12 +1,17 @@
 .card {
     border-radius: 10px;
-    width: min(24vw,340px);
-    height: min(24vw,340px);
-    margin: 1.5vw;
+    width: 22vw;
+    height: 22vw;
+    /*width :30%;
+    height: #{width};
+    aspect-ratio : 1/1
+    */
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items:flex-end;
     text-decoration: none;
+    
     @media (max-width:600px) {
         width: 100%;
         height: 255px;
@@ -15,16 +20,26 @@
     &__titre {
         position:relative;
         top: max(-50px,-5vw);
-        font-size: min(18px, 1.5vw);
+        max-height: 40px;
+        //font-size: min(18px, 1.5vw);
+        font-size: 18px;
         font-weight: 500;
         color: white;
         margin: 0;
         padding : 0 10px 0 10px;
         text-align: left;
         text-decoration:none;
+        overflow: hidden;
+        text-overflow: ellipsis;
         text-shadow: 1px 1px 2px black;
+        @media (max-width:1000px) {
+            font-size: 15px;
+        }
+        @media (max-width:800px) {
+            font-size: 12px;
+            height: 30px;
+        }
         @media (max-width:600px) {
-            font-size: 18px;
             top: min(-50px,-12vw); //à revoir, couper le texte si trop long
         }
     }
@@ -44,6 +59,9 @@
     position: relative;
     top: -100px;
     left: 50%;
+    @media (max-width: 600px) {
+        top: -80px;
+    }
 }
 
 .card__lien {
