@@ -12,42 +12,42 @@ import Host from "../components/ficheLogement/ficheLogement__host";
 export default function FicheLogement() {
 
 const logementId = useParams().ficheLogementId;
-const index = biensImmobiliers.findIndex(element => element.id === logementId);
+const indexRecherche = biensImmobiliers.findIndex(element => element.id === logementId);
 
     return (
         <>
             <Header />
             <Carrousel
-                logementSelectionne = {index}
+                logementSelectionne = {indexRecherche}
             />
             <section className="detailLogement">
                 <Selection
-                    index = {index}
+                    index = {indexRecherche} //pb de double key à identifier
                  />
                 <Host
-                    index = {index}
+                    index = {indexRecherche}
                 />
             </section>
             <section className="menuDeroulantLogement">
-                <p className="menuDeroulantLogement__contenu">
+                <div className="menuDeroulantLogement__contenu">
                     <Charte
                         titre = "Description"
-                        contenu = {biensImmobiliers[index].description}
+                        contenu = {biensImmobiliers[indexRecherche].description}
                     />
-                </p>
-                <p className="menuDeroulantLogement__contenu">
+                </div>
+                <div className="menuDeroulantLogement__contenu">
                     <Charte
                         titre = 'Equipements'
                         contenu = 
-                        {biensImmobiliers[index].equipments.map((biensImmo) => (
-                          <li key={biensImmo.id}>
+                        {biensImmobiliers[indexRecherche].equipments.map((biensImmo) => (
+                          <li key={biensImmo}>
                             {biensImmo}
                           </li>
                         ))}
                       
 
                     />    
-                </p>
+                </div>
                 
             </section>
             

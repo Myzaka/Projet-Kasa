@@ -11,7 +11,7 @@ export default function Selection({index}) {
         </p>
         <ul className='selection__tags'>
             {biensImmobiliers[index].tags.map((biensImmo) => (
-            <li key={index}>
+            <li key={biensImmo}>
                 <button className="selection__tags--button">{biensImmo}</button>
             </li>
             ))}
