@@ -14,4 +14,4 @@ Changer chevron et compteur pour reprendre format projet
 <br />
 !!! erreurs JS dans la console à proscrire
 <br />
-Quand je zoom, le nb d'images par ligne se réduit. Comment faire ?
+Pb avec width/height des images. Ca marche avec des px ou avec vw, mais pas avec des % (dans ce cas, je n'ai qu'une seule image par ligne)
