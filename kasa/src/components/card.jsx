@@ -12,4 +12,3 @@ export default function Card({photo, titre, identifiant}) {
         </Link>
     )
 }
-

@@ -37,10 +37,12 @@
         }
         @media (max-width:800px) {
             font-size: 12px;
-            height: 30px;
+            max-height: 30px;
         }
         @media (max-width:600px) {
-            top: min(-50px,-12vw); //à revoir, couper le texte si trop long
+            font-size: 18px;
+            max-height: 40px;
+            top: -50px;
         }
     }
     &__photo {
