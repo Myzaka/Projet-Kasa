@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Footer2 from "../components/footer2";
 import Carrousel from "../components/ficheLogement/ficheLogement__carrousel";
 import Selection from "../components/ficheLogement/ficheLogement__selection";
-import Charte from "../components/menuDeroulant";
+import Collapse from "../components/Collapse";
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
 import biensImmobiliers from "../assets/images/biensImmobiliers.json";
@@ -36,13 +36,13 @@ export default function FicheLogement() {
         </section>
         <section className="menuDeroulantLogement">
           <div className="menuDeroulantLogement__contenu">
-            <Charte
+            <Collapse
               titre="Description"
               contenu={biensImmobiliers[indexRecherche].description}
             />
           </div>
           <div className="menuDeroulantLogement__contenu">
-            <Charte
+            <Collapse
               titre="Equipements"
               contenu={biensImmobiliers[indexRecherche].equipments.map(
                 (biensImmo) => (

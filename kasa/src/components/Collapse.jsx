@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ('./../style/menuDeroulant.scss')
 
-export default function Charte ({titre, contenu}) {
+export default function Collapse ({titre, contenu}) {
     const [isActive, setIsActive] = useState(false);
     return (
         <>

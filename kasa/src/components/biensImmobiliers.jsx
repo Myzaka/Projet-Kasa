@@ -1,10 +1,10 @@
 import Card from './card';
+import biensImmobiliers from '../assets/images/biensImmobiliers.json';
 import ('../style/biensImmobiliers.scss');
-import ('../assets/images/biensImmobiliers.json');
+
 
 
 export default function BiensImmobiliers() {
-    const biensImmobiliers = require('../assets/images/biensImmobiliers.json');
   
     return (
       <ul className='biensImmobiliers'>
