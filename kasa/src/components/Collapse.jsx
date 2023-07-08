@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ('./../style/menuDeroulant.scss')
+import ('./../style/Collapse.scss')
 
 export default function Collapse ({titre, contenu}) {
     const [isActive, setIsActive] = useState(false);

@@ -6,15 +6,15 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Root from "./pages/root";
 import ErrorPage from "./pages/error-page";
 import Apropos from './pages/Apropos';
 import FicheLogement from './pages/ficheLogement';
+import App from './App';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
     errorElement: <ErrorPage />,
   },
   {

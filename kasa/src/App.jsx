@@ -3,7 +3,6 @@ import Footer2 from "./components/footer2";
 import Header from "./components/header";
 import BiensImmobiliers from "./components/biensImmobiliers";
 import bandeauHome__paysage from './assets/images/bandeauHome__paysage.png';
-import './style/root.scss'
 import './style/App.scss';
 
 export default function App() {
