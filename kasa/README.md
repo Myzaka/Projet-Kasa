@@ -1,3 +1,3 @@
-Site locations immobilières
-<br />
-Le commit "XXX" inclut la création d'un composant Tag
+Suite soutenance :
+<br>
+Le commit "Suppression dependances props (ficheLogement)" inclut la création d'un composant Tag
