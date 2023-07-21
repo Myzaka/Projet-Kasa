@@ -2,6 +2,7 @@ import Header from "../components/header";
 import Footer2 from "../components/footer2";
 import Carrousel from "../components/ficheLogement/ficheLogement__carrousel";
 import Selection from "../components/ficheLogement/ficheLogement__selection";
+import Tag from "../components/ficheLogement/ficheLogement__tag";
 import Collapse from "../components/Collapse";
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
@@ -12,39 +13,54 @@ import Host from "../components/ficheLogement/ficheLogement__host";
 
 export default function FicheLogement() {
   const logementId = useParams().ficheLogementId;
-  const indexRecherche = biensImmobiliers.findIndex(
+  const logement = biensImmobiliers.find(
     (element) => element.id === logementId
   );
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (indexRecherche === -1) {
+    if (!logement) {
       navigate("/pageErreur");
     }
-  }, [indexRecherche, navigate]);
+  }, [logement, navigate]);
 
   let content = null;
 
-  if (indexRecherche !== -1) {
+  if (logement) {
     content = (
       <>
         <Header />
-        <Carrousel logementSelectionne={indexRecherche} />
+        <Carrousel
+        imagesCarrousel= {logement.pictures}
+        titresCarrousel= {logement.title}
+        />
         <section className="detailLogement">
-          <Selection index={indexRecherche} />
-          <Host index={indexRecherche} />
+          <div className="detailLogement__presentation">
+            <Selection
+            title = {logement.title}
+            location = {logement.location}
+            />
+            <Tag
+            tags = {logement.tags}
+            />
+          </div>
+          <Host 
+          picture = {logement.host.picture}
+          name = {logement.host.name}
+          rating = {logement.rating}
+          />
         </section>
         <section className="menuDeroulantLogement">
           <div className="menuDeroulantLogement__contenu">
             <Collapse
               titre="Description"
-              contenu={biensImmobiliers[indexRecherche].description}
+              contenu={logement.description}
             />
           </div>
           <div className="menuDeroulantLogement__contenu">
             <Collapse
               titre="Equipements"
-              contenu={biensImmobiliers[indexRecherche].equipments.map(
+              contenu={logement.equipments.map(
                 (biensImmo) => (
                   <li key={biensImmo}>{biensImmo}</li>
                 )

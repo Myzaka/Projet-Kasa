@@ -1,7 +1,7 @@
 .selection {
     color: #FF6060;
     font-weight: 500;
-    width: 50%;
+    width: 100%;
     @media (max-width:600px) {
         width: 100%;
     }
@@ -17,31 +17,6 @@
         @media (max-width:600px) {
             font-size: 14px;
             margin: 5px 0;
-        }
-    }
-    &__tags {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 18px;
-        list-style-type: none;
-        padding: 0;
-        @media (max-width:600px) {
-            margin: 0;
-        }
-        &--button {
-            margin: 10px 10px 10px 0;
-            color: white;
-            background-color: #FF6060;
-            height: 65%;
-            width: 115px;
-            font-size: 14px;
-            border-radius: 15px;
-            border-style: none;
-            @media (max-width:600px) {
-                font-size: 10px;
-                width: 84px;
-            }
         }
     }
 }

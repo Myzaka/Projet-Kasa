@@ -11,6 +11,13 @@
         flex-direction: column;
         margin-top: 20px;
     }
+    &__presentation {
+        width: 50%;
+        @media (max-width:600px) {
+            width: 90%;
+            flex-direction: column;
+        }
+    }
 }
 
 .menuDeroulantLogement {

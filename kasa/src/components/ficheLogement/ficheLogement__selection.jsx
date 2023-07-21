@@ -1,21 +1,11 @@
-import biensImmobiliers from "../../assets/images/biensImmobiliers.json"
-
-export default function Selection({index}) {
+export default function Selection({title, location}) {
     return(
     <div className="selection">
         <p className="selection__title">
-            {biensImmobiliers[index].title}
+            {title}
         </p>
         <p className="selection__location">
-            {biensImmobiliers[index].location}
+            {location}
         </p>
-        <ul className='selection__tags'>
-            {biensImmobiliers[index].tags.map((biensImmo) => (
-            <li key={biensImmo}>
-                <button className="selection__tags--button">{biensImmo}</button>
-            </li>
-            ))}
-        </ul>
     </div>)
 }
-

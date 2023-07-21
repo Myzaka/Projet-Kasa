@@ -1,0 +1,26 @@
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    @media (max-width:600px) {
+        margin: 0;
+    }
+    &__button {
+        margin: 10px 10px 10px 0;
+        color: white;
+        background-color: #FF6060;
+        height: 65%;
+        width: 115px;
+        font-size: 14px;
+        border-radius: 15px;
+        border-style: none;
+        @media (max-width:600px) {
+            font-size: 10px;
+            width: 84px;
+        }
+    }
+}

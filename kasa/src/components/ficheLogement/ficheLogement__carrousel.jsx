@@ -1,13 +1,9 @@
 import { useState } from 'react';
-import '../../style/ficheLogement/ficheLogement__carrousel.scss'
-import biensImmobiliers from '../../assets/images/biensImmobiliers.json';
+import '../../style/ficheLogement/ficheLogement__carrousel.scss';
 
 
-export default function Carrousel({logementSelectionne}) {
+export default function Carrousel({logementSelectionne, imagesCarrousel, titresCarrousel}) {
   
-  const logement = biensImmobiliers[logementSelectionne];
-  const imagesCarrousel = logement.pictures;
-  const titresCarrousel = logement.title;
   const nombreImagesCarrousel = imagesCarrousel.length-1;
   const [index, setIndex] = useState(0);
   const defilDroite=() => index < nombreImagesCarrousel ? setIndex(index+1) : setIndex(0);
@@ -48,3 +44,4 @@ function Compteur({imageActive, imageTotal}) {
     (imageTotal > 0) && <div className='compteur'>{imageActive+1}/{imageTotal+1}</div>
   )
 }
+
