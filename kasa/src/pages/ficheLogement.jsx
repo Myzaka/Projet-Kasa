@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import Footer2 from "../components/footer2";
+import Footer from "../components/footer";
 import Carrousel from "../components/ficheLogement/ficheLogement__carrousel";
 import Selection from "../components/ficheLogement/ficheLogement__selection";
 import Tag from "../components/ficheLogement/ficheLogement__tag";
@@ -68,7 +68,7 @@ export default function FicheLogement() {
             />
           </div>
         </section>
-        <Footer2 />
+        <Footer />
       </>
     );
   }

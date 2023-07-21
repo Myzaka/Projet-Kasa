@@ -1,7 +1,7 @@
 import Header from "../components/header";
 import Bandeau from "../components/bandeau";
 import Collapse from "../components/Collapse";
-import Footer2 from "./../components/footer2.jsx";
+import Footer from "../components/footer.jsx";
 import bandeauApropos from './../assets/images/bandeauApropos.png';
 import ('./../style/Apropos.scss')
 
@@ -38,7 +38,7 @@ export default function Apropos() {
                     également des ateliers sur la sécurité domestique pour nos hôtes."
                  />
             </section>
-            <Footer2 />
+            <Footer />
         </>
     )
 }

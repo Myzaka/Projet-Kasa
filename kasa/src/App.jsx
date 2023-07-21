@@ -1,5 +1,5 @@
 import Bandeau from "./components/bandeau";
-import Footer2 from "./components/footer2";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import BiensImmobiliers from "./components/biensImmobiliers";
 import bandeauHome__paysage from './assets/images/bandeauHome__paysage.png';
@@ -19,7 +19,7 @@ export default function App() {
       <section className='offresImmobilieres'>
         <BiensImmobiliers />
       </section>
-      <Footer2 />
+      <Footer />
     </>
   );
 }
